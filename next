@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="WENKQk9vWG8pGnp2F18pFy8sBHEgChBZCXUGAxs2Dlo3JQ81BT8XGQ==">
+<title>k8s</title>
+    <link href="http://dev.univrs.io/bootstrap.css" rel="stylesheet">
+    <link href="http://dev.univrs.io/univrs.css" rel="stylesheet">
+ <style>
+.home-background {
+    position: relative;
+    width: 100%;       
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center 120px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+}
+</style> 
+ </head>
+<body>
+    
+     <div class="wrap">
+        <nav id="w0" class="navbar navbar-fixed-top" role="navigation">
+        <div class="container"><div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse">
+        <span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/"><strong>k8s</strong></a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li class="active"><a href="/about">about k8s</a></li></ul></div></div></nav>
+        <div class="container">
+            <ul class="breadcrumb">
+            <li><a href="/">Home</li>
+            <li><a href="/about">K8s</a></li>
+            <li><a href="/intro">Overview</a></li>
+            <li><a href="/docker">Docker</a></li>
+            </ul>            <!-- div class="home-background" style="background-image: url(&quot;img/univrs.JPG&quot;);" -->
+            <div class="site-about">
+    <!-- h1><? // Html::encode($this->title) ?></h1 -->
+   <div class="jumbotron">
+        <h1>What Makes Up Docker?</h1>
+    </div>
+
+    <div class="body-content">
+          <p><h3>
+       <ul>
+         <li>Docker consists primarily of the Docker (cmd) API Engine, which runs as a daemon to provide the docker service</li>
+         <li>Docker command which has many options to work with docker images and containers.</li>
+         <li>Docker index, (hub.docker.com and store.docker.com) contains thousands of containerzied applications you can use.
+       </ul>
+       </p></h3>
+
+   </div>
+<!-- new -->    
+<div class="vertical-center">
+  
+	<div class="container well">
+	  <a href="/intro">&lt;&lt; Prev</a> | <a href="/docker">Next &gt;&gt;</a>
+
+	</div><!-- end of vertial -->
+	</div><!-- end container -->
+</div>
+           <!-- /div -->
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-left">&copy; univrs.io 2017</p>
+            <p class="pull-right"><a href="https://github.com/ardeshir/">powered by open source</a></p>
+        </div>
+    </footer>
+
+<script src="http://dev.univrs.io/jquery.js"></script>
+<script src="http://dev.univrs.io/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="WENKQk9vWG8pGnp2F18pFy8sBHEgChBZCXUGAxs2Dlo3JQ81BT8XGQ==">
+<title>k8s</title>
+    <link href="http://dev.univrs.io/bootstrap.css" rel="stylesheet">
+    <link href="http://dev.univrs.io/univrs.css" rel="stylesheet">
+ <style>
+.home-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center 120px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+}
+</style> 
+ </head>
+<body>
+    
+     <div class="wrap">
+        <nav id="w0" class="navbar navbar-fixed-top" role="navigation">
+        <div class="container"><div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse">
+        <span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/"><strong>k8s</strong></a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li class="active"><a href="/about">about k8s</a></li></ul></div></div></nav>
+        <div class="container">
+            <ul class="breadcrumb">
+            <li class="active">Home</li>
+                <li><a href="/about">about k8s</a></li>
+            </ul>            <!-- div class="home-background" style="background-image: url(&quot;img/univrs.JPG&quot;);" -->
+            <div class="site-about">
+    <!-- h1><? // Html::encode($this->title) ?></h1 -->
+   <div class="jumbotron">
+        <h1>Helpful links</h1>
+        <!-- p><a class="btn btn-lg btn-default" href="http://univrs.io:8888"></a></p -->
+       <!-- p><a class="btn btn-default" href="http://www.tensorflow.org">Getting Started in TensorFlow</a></p -->
+    </div>
+
+    <div class="body-content">
+
+        
+       <h2>LNSS Links </h2>
+<li><a href="http://lnsswiki.lifetouch.net/JSPWiki/">jspWiki - here you will find lots of technical application details such as how apps work and which servers they are deployed on, etc.</a></li>
+<li><a href="http://mail.google.com">Gmail - Lifetouch National School Studios (LNSS) uses Google for email, docs, calendar, etc.</a></li>
+<li><a href="https://journyx.lifetouch.net">Journyx - This is for tracking time spent on the various projects and tasks.  These should be submitted on Monday morning for the previous week. </a></li>
+<li><a href="http://supportservices.lifetouch.net">CA Support Services - This is our incident, request, and change ticketing system of record.  Note that it only works with IE or FireFox.  <br/>
+Uses AD credentials. </a></li>
+<li><a href="http://lnsswiki.lifetouch.net/JSPWiki/Wiki.jsp?page=Getting%20Started">Getting Started - This is a Wiki page intended for new AppDev team members but you will find it useful as well - <br/>
+ especially the overviews "Application Index", "Concepts...", and "Services Index". </a></li>
+ <li><b>Nagios</b></li>
+<li><a href="http://nagios.lifetouch.net"> Nagios - Core Nagios - System monitoring tool for Core Systems. </a></li>
+<li><a href="https://lab-nagios.lifetouch.net/">Lab Nagios - Monitors Underclass and Senior lab systems. </a></li>
+<li><a href="https://enterprise-nagios.lifetouch.net">Enterprise Nagios - New Monitoring setup that is more scalable. We are in the process of migrating Core & Lab Nagios configurations
+ here as well as adding QA systems. </a></li>
+ <li><a href="https://osb-monitor.lifetouch.net/">osb-monitor.lifetouch.net</a></li>
+<li><a href="https://lifetouchlnss.atlassian.net">Atlassian Cloud - All new IT endeavors are leveraging our new cloud hosted Atlassian tools: Confluence (wiki), Bamboo (builds & deploys), 
+Bitbucket (a git source code repository), & JIRA (issue collection and project management). </a></li>
+<li><a href="http://jira.lifetouch.net"> Jira (on-prem/legacy) - Bug tracking used by AppDev and business.  Uses AD credentials.  Note this is mostly legacy now as almost all apps have been migrated to Atlassian 
+Cloud and BitBucket. </a></li>
+<li><a href="http://jenkins.lifetouch.net"> Jenkins - AppDev's older build tool. </a></li>
+<li><a href="http://nexus.lifetouch.net">Nexus - Artifact repository that Hudson and Jenkins publish builds to.  Also used by AppDev for many other source code modules as a local copy.  
+TOADS & TADM deployment script mechanism fetches deployment artifacts from Nexus when we deploy new versions of applications to Dev, QA, and Prod. </a></li>
+<li><a href="http://lnsswiki.lifetouch.net/JSPWiki/Wiki.jsp?page=F5BigIP">BigIPs - This Wiki page is used often as it has the links to all of the BigIP load balancers in place at Lifetouch.  
+All BigIPs use AD credentials.  </a></li>
+<li><a href="https://signin.aws.amazon.com">AWS - Accounts: aws-lnss-dev, aws-lnss-qa, aws-lnss-prod</a></li>
+<li><a href="https://sites.google.com/a/lifetouch.com/lnss-run-team-offshore/?pli=1">Know Your Offshore -</a></li>
+<li><a href="https://lnsspwserver.lifetouch.net/Account/SignIn">Pleasant Password Server - we store credentials here for Run Team Engineers' reference only. </a></li>
+<li><a href="https://docs.google.com/document/d/1ciE_tR6PDoLufpCVchaOUGA-CTbolOQqCVlWHoKalqw/edit#heading=h.2xkbbgety6y8">Lifetouch locations overview - </a></li>
+<li><a href="https://drive.google.com/drive/folders/0BzJ3-P8py1yTemFuR3Z6QXNzajA">Run Team Google Drive - </a></li>
+<li><a href="https://sites.google.com/a/lifetouch.com/lnss-change-management/"> LNSS Change Mgmt - </a></li>
+<li><a href="https://sites.google.com/a/lifetouch.com/lnss-information-hub/directories">LNSS iHUB - </a></li>
+<li><a href="http://dev-jiggler2.lifetouch.net/graph">Jiggler2.lifetouch.net/graph</a></li>
+<li><a href="https://osb-monitor.lifetouch.net/osb-monitor/Prod11g/OMS">OMS-Monitor Console</a></li>
+<li><a href="https://rpm.newrelic.com/accounts/1094420/applications">New Relic Dashboard</a></li>
+<li><a href="https://lifetouch.pagerduty.com/schedules">PagerDuty Schedules</a></li>
+</ul>
+<br/>
+<hr/>
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;">
+<!-- iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/559082c6-ef46-48ab-b214-61b06e886920" id="wh~pGi3s4761">
+</iframe --></div>
+    
+    </div>
+    
+<!-- new -->    
+
+<div class="vertical-center">
+  
+	<div class="container well"><a href="/about">Next &gt;&gt;</a>
+       <!-- b>Join the discussion:</b><br/>
+	<ul id="messages" class="list-unstyled">
+	
+	</ul>
+	<hr/>
+
+	<form role="form" id="chat_form" onsubmit="sendMessage(); return false;">
+		<div class="form-group">
+		<input class="form-control" type="text" id="message" name="message"
+		placeholder="Type your text here" value="" autofocus/>
+		</div>
+	<button type="button" id="send" class="btn btn-primary" onclick="sendMessage();">Send Message</button><button type="button" id="clear" class="btn btn-default" onclick="clearMessages(); return false;">Clear</button>
+	</form -->
+	</div><!-- end of vertial -->
+	</div><!-- end container -->
+</div>
+           <!-- /div -->
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-left">&copy; univrs.io 2017</p>
+            <p class="pull-right"><a href="https://github.com/ardeshir/">powered by open source</a></p>
+        </div>
+    </footer>
+
+<script src="http://dev.univrs.io/jquery.js"></script>
+<script src="http://dev.univrs.io/bootstrap.js"></script>
+</body>
+</html>
